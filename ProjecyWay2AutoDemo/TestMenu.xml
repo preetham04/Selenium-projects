@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "5">
+<parameter name = "url" value = "http://way2automation.com/way2auto_jquery/frames-and-windows.php" />
+  <parameter name = "browserType" value = "CH" />
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.way2automation.tests.TestMenu"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
